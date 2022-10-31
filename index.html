@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uteca</title>
+  <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+  <link href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main_container" style="display: none;">
+    <div class="inicio_button"></div>
+    <div class="main_logo"></div>
+    <div class="form form_position">
+      <div class="form_field">
+        <div class="form_label">Nombre:</div>
+        <input class="form_input" type="text" placeholder="Nombre">
+      </div>
+      <div class="form_field">
+        <div class="form_label">Carrera:</div>
+        <select class="form_input">
+          <option value="">Elige una opción</option>
+        </select>
+      </div>
+      <div class="form_field">
+        <div class="form_label">UTECA ID:</div>
+        <input class="form_input" type="text" placeholder="UTECA ID">
+      </div>
+      <div class="form_field">
+        <div class="form_label">Contraseña:</div>
+        <input class="form_input" type="password" placeholder="Nombre">
+      </div>
+      <div class="button"></div>
+    </div>
+
+  </div>
+
+  <div class="main_container" style="display: none;">
+    <div class="inicio_button"></div>
+    <div class="main_logo"></div>
+    <div class="register_menu">
+      <div class="menu_item one alianzas"></div>
+      <div class="menu_item two ambiente"></div>
+      <div class="menu_item one blog"></div>
+      <div class="menu_item two centro_idiomas"></div>
+      <div class="menu_item one educacion_continua"></div>
+      <div class="menu_item two egresados"></div>
+      <div class="menu_item one servicios_escolares"></div>
+    </div>
+
+  </div>
+  <div class="sidebar">
+    <div class="sidebar_items">
+      <div class="sidebar_item odd boton_exalumnos"></div>
+      <div class="sidebar_item serviciosescolares_lateral"></div>
+      <div class="sidebar_item odd alianzas_lateral"></div>
+      <div class="sidebar_item blog"></div>
+      <div class="sidebar_item odd egresados"></div>
+      <div class="sidebar_item centro_idiomas_lateral"></div>
+      <div class="sidebar_item odd ambiente_lateral"></div>
+      <div class="sidebar_item educacion_continua_lateral"></div>
+    </div>
+    <a href="https://www.uteca.edu.mx" class="button_volver" target="_self"></a>
+  </div>
+
+  <!-- MENU VERTICAL -->
+  <div class="main-vertical">
+    <i class="fa fa-bars bars-button" aria-hidden="true" id="bars-button"></i>
+    <div class="navbar">
+      <div class="contenido">
+        <nav class="bars">
+          <ul>
+            <div class="section serviciosescolares_lateral servicios ">
+              <img
+                src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/serviciosescolares_vertical.png"
+                class="imgLogo">
+              Servicios Escolares
+            </div>
+            <div class="section alianzas_lateral ali ">
+              <img src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/alianzas_vertical.png"
+                class="imgLogo">
+              Alianzas
+            </div>
+            <div class="section blog blogger">
+              <img src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/blog.png" class="imgLogo">
+              Blog
+            </div>
+            <div class="section egresados egre">
+              <img src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/egresados_vertical.png"
+                width="140px" class="imgLogo">
+              Egresados
+            </div>
+            <div class="section centro_idiomas_lateral idiomas">
+              <img src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/centro_idiomas_vertical.png"
+                class="imgLogo">
+              Centro de idiomas
+            </div>
+            <div class="section ambiente_lateral uteca">
+              <img src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/ambiente_vertical.png"
+                width="100px" class="imgLogo">
+              Ambiente UTECA
+            </div>
+            <div class="section educacion_continua_lateral educontinua">
+              <img
+                src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/educacion_continua_vertical.png"
+                class="imgLogo">
+              Educación Continua
+            </div>
+            <div class="section"><a href="https://www.uteca.edu.mx" class="button_volver" target="_self">
+                <div class="volver">Volver</div>
+              </a></div>
+          </ul>
+        </nav>
+        <div class="title">
+          <img src="./portal_alumnos_final/elementos_del_portal/menu_vertical/botones/boton_exalumnos_vertical.png"
+            class="imgExclusiva">
+          <h2>EXCLUSIVO ALUMNOS</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SERVICIOS ESCOLARES -->
+  <div class="body_content escolares">
+    <div class="title servicios_escolares"></div>
+
+    <div class="content_inside">
+
+      <a href="https://www.uteca.edu.mx/wp-content/uploads/2022/09/CONVOCATORIA-DE-BECA-23-1-Superior-p.pdf"
+        target="_blank" class="servicio_item">
+        <div class="servicio_item_icon becas"></div>
+        <div class="servicio_item_title">Becas</div>
+        <div class="servicio_item_text">
+          ¡Felicidades! Tienes la beca
+          “Soy UTECA” del 15% que aplica
+          en colegiatura e inscripción.
+        </div>
+      </a>
+
+      <a href="https://app.mx.saeko.io/login" target="_blank" class="servicio_item">
+        <div class="servicio_item_icon calificaciones"></div>
+        <div class="servicio_item_title">Calificaciones</div>
+        <div class="servicio_item_text">
+          ¿Cómo vas?
+          Checa tus calificaciones
+          de este cuatrimestre.
+        </div>
+      </a>
+
+      <a target="_blank" href="https://app.mx.saeko.io/login" class="servicio_item">
+        <div class="servicio_item_icon planes_de_estudio"></div>
+        <div class="servicio_item_title">Plan de estudio</div>
+        <div class="servicio_item_text">
+          ¿Qué materias vas a cursar?
+          Aquí está tu plan de estudios
+          completito.
+        </div>
+      </a>
+
+      <a target="_blank" href="https://www.uteca.edu.mx/wp-content/uploads/2022/04/calendario-alumnos-22-3.pdf"
+        class="servicio_item">
+        <div class="servicio_item_icon calendario"></div>
+        <div class="servicio_item_title">Calendario Escolar</div>
+        <div class="servicio_item_text">
+          ¿Mañana es asueto?
+          ¿Cuándo empiezan exámenes?
+          Revisa el calendario
+          del cuatrimestre.
+        </div>
+      </a>
+
+      <a target="_blank"
+        href="https://www.uteca.edu.mx/wp-content/uploads/2021/01/REGLAMENTO-INS-SUPERIOR-UTECA-2021.pdf"
+        class="servicio_item">
+        <div class="servicio_item_icon reglamento"></div>
+        <div class="servicio_item_title">Reglamento U</div>
+        <div class="servicio_item_text">
+          Descárgalo aquí
+        </div>
+      </a>
+
+      <a target="_blank"
+        href="https://www.uteca.edu.mx/wp-content/uploads/2021/12/Protocolo-regreso-a-clases-UTECA-2022.pdf"
+        class="servicio_item">
+        <div class="servicio_item_icon protocolo_nuevo"></div>
+        <div class="servicio_item_title">Nuevo protocolo</div>
+        <div class="servicio_item_text">
+          Descárgalo aquí
+        </div>
+      </a>
+
+      <a target="_blank" class="servicio_item"
+        href="https://www.uteca.edu.mx/wp-content/uploads/2022/08/Bolsa-de-Trabajo-y-Servicio-Social-180822.pdf">
+        <div class="servicio_item_icon bolsa_trabajo"></div>
+        <div class="servicio_item_title">Bolsa de Trabajo</div>
+        <div class="servicio_item_text">
+          Ve nuestras vacantes
+        </div>
+      </a>
+
+      <a target="_blank" href="https://app.mx.saeko.io/login" class="servicio_item">
+        <div class="servicio_item_icon estado_cuenta"></div>
+        <div class="servicio_item_title">Estado de Cuenta</div>
+        <div class="servicio_item_text">
+          ¿Dudas? Comunícate
+        </div>
+      </a>
+
+      <a target="_blank"
+        href="https://apps.powerapps.com/play/5a4d2f53-3f3d-435e-b041-bf10e1303e3a?tenantId=3891f08f-5db1-42f8-94af-9a15442d68c1"
+        class="servicio_item">
+        <div class="servicio_item_icon tramites"></div>
+        <div class="servicio_item_title">Trámites</div>
+      </a>
+
+    </div>
+
+    <div class="pleca_logo"></div>
+  </div>
+
+  <!-- ALIANZAS -->
+  <div class="body_content alianzas_body">
+    <div class="title alianzas"></div>
+    <div class="content_inside alianzas_content">
+      <div class="glitch_container">
+        <div></div>
+        <div class="glitch"></div>
+      </div>
+      <a target="_blank" href="https://centromvs.com/" class="alianza_item logo_MVSCC"></a>
+      <div class="pleca_alianzas"></div>
+      <div class="glitch_container">
+        <div></div>
+        <div class="alianzas_text">
+          Conoce los cursos, diplomados y
+          certificaciones que ofrece Centro de
+          Capacitación MVS.
+        </div>
+      </div>
+      <a target="_blank" href="https://mvsmusiccenter.com/" class="alianza_item music_center_logo"></a>
+      <div class="pleca_alianzas"></div>
+      <div class="glitch_container">
+        <div></div>
+        <div class="alianzas_text">
+          ¡Desarrolla tus habilidades artísticas!
+          Explora los cursos presenciales y online
+          sobre producción musical, dibujo y
+          pintura, canto e instrumentos musicales.
+        </div>
+      </div>
+    </div>
+    <div class="pleca_logo"></div>
+  </div>
+
+  <!-- AMBIENTE UTECA -->
+  <div class="body_content ambiente_body">
+    <div class="title ambiente"></div>
+    <div class="content_inside content_ambiente">
+      <div class="ambiente_item">
+        <div class="ambiente_image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9gTpDm4v9s8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="ambiente_title">
+          Aún en tiempos de contingencia sanitaria, UTECA hará lo posible para que sigas tus estudios
+        </div>
+
+      </div>
+      <div class="ambiente_space"></div>
+      <div class="ambiente_item">
+        <div class="ambiente_image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yCcZjgQVXgw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="ambiente_title">
+          Seguimos en clases a pesar de la contingencia, en UTECA nada nos detiene
+        </div>
+
+      </div>
+      <div class="ambiente_item">
+        <div class="ambiente_image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/XBG3fIAjHCs" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="ambiente_title">
+          Las Licenciaturas de la Universidad de MVS: UTECA
+        </div>
+
+      </div>
+      <div class="ambiente_space"></div>
+      <div class="ambiente_item">
+        <div class="ambiente_image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HteT499MwtA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="ambiente_title">
+          Los alumnos de UTECA nos indican cómo han vivido las clases en esta temporada de confinamiento.
+        </div>
+
+      </div>
+    </div>
+    <div class="pleca_logo"></div>
+  </div>
+
+  <!-- BLOG -->
+  <div class="body_content blog_body">
+    <div class="title blog"></div>
+    <div class="blog_text">Conoce un poco más de tus materias y profesores:</div>
+    <div class="content_materia">
+      <a target="_blank" class="materia creatividad"
+        href="https://www.uteca.edu.mx/2020/05/08/mexico-capital-de-la-animacion-la-nueva-decada/">
+        <div class="materia_label">Creatividad y Diseño</div>
+      </a>
+      <a target="_blank" href="https://www.uteca.edu.mx/2020/04/30/la-otra-cara-del-cine-cine-de-culto/"
+        class="materia culto">
+        <div class="materia_label">Idiomas y Humanidades</div>
+      </a>
+      <a target="_blank"
+        href="https://www.uteca.edu.mx/2019/11/12/alumnos-de-la-licenciatura-en-actuaria-ganan-el-2o-lugar-en-bugamap/"
+        class="materia actuaria">
+        <div class="materia_label">Actuaria y Negocios</div>
+      </a>
+      <a target="_blank" class="materia corporal"
+        href="https://www.uteca.edu.mx/2020/05/06/oh-my-god-ya-me-atraparon-conoce-tu-lenguaje-corporal/">
+        <div class="materia_label">General</div>
+      </a>
+    </div>
+
+    <div class="pleca_logo"></div>
+  </div>
+
+  <!-- EGRESADOS -->
+  <div class="body_content egresados_body">
+    <div class="title egresados"></div>
+    <div class="content_inside justify_center">
+      <a target="_blank" href="mailto:controlescolar@uteca.edu.mx" class="egresado">
+        <div class="egresado_logo titulacion"></div>
+        <div class="egresado_content">
+          <div class="egresado_content_title">
+            ¡Inicia tus trámites de titulación!
+          </div>
+        </div>
+      </a>
+      <a target="_blank"
+        href="https://www.uteca.edu.mx/wp-content/uploads/2022/09/Infografia-Membresia-Egresadosmall.pdf"
+        class="egresado">
+        <div class="egresado_logo beneficios"></div>
+        <div class="egresado_content">
+          <div class="egresado_content_title">
+            Continúa con los beneficios de UTECA
+          </div>
+          <div class="egresado_content_text">
+            ¡Tramita tu Credencial!
+          </div>
+        </div>
+      </a>
+      <a target="_blank" href="https://www.uteca.edu.mx/egresados/" class="egresado">
+        <div class="egresado_logo newslatter"></div>
+        <div class="egresado_content">
+          <div class="egresado_content_title">
+            Manténte en contacto con tu Alma Máter
+          </div>
+          <div class="egresado_content_text">
+            Suscríbete a nuestro newsletter.
+          </div>
+        </div>
+      </a>
+      <a target="_blank"
+        href="https://www.uteca.edu.mx/wp-content/uploads/2022/08/Bolsa-de-Trabajo-y-Servicio-Social-180822.pdf"
+        class="egresado">
+        <div class="egresado_logo bolsa_de_trabajo"></div>
+        <div class="egresado_content">
+          <div class="egresado_content_title">
+            Bolsa de Trabajo
+          </div>
+          <div class="egresado_content_text">
+            Checa las vacantes que tenemos para ti
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="pleca_logo"></div>
+  </div>
+
+  <!-- CENTRO DE IDIOMAS -->
+  <div class="body_content idiomas_body">
+    <div class="title centro_idiomas"></div>
+    <div class="content_inside justify_center idiomas_content">
+      <div class="idioma_subtitle">
+        ¡Diviértete aprendiendo un nuevo idioma!
+      </div>
+      <div class="idioma_text">
+        Estudia en instalaciones equipadas, con docentes experimentados y una metodología de enseñanza moderna
+        en un ambiente agradable.
+      </div>
+      <div class="idioma_text">
+        Elige el idioma de tu interés, todos se ofrecen en niveles básico, intermedio y avanzado:
+      </div>
+      <div class="countries">
+        <div class="country">
+          <div class="idioma_country ingles"></div>
+          <div class="idioma_name">Inglés</div>
+        </div>
+        <div class="country">
+          <div class="idioma_country frances"></div>
+          <div class="idioma_name">Francés</div>
+        </div>
+        <div class="country">
+          <div class="idioma_country portugues"></div>
+          <div class="idioma_name">Portugués</div>
+        </div>
+        <div class="country">
+          <div class="idioma_country chino"></div>
+          <div class="idioma_name">Chino</div>
+        </div>
+      </div>
+      <div class="idioma_subtitle">
+        ¿Vas a certificarte en inglés o francés? ¡Prepárate en UTECA!
+      </div>
+      <div class="idioma">
+        <div class="idioma_logo opc1"></div>
+        <div class="idiomaEgresado_content">
+          <div class="idiomaEgresado_content_title">
+            First Certificate in English (FCE)
+          </div>
+          <div class="idiomaEgresado_content_text">
+            Abre tus posibilidades a oportunidades de empleo, comienza a trabajabar en ambientes profesionales en inglés
+            en todo el mundo.
+          </div>
+        </div>
+      </div>
+      <div class="idioma">
+        <div class="idioma_logo opc2"></div>
+        <div class="idiomaEgresado_content">
+          <div class="idiomaEgresado_content_title">
+            Certificate in Advanced English (CAE)
+          </div>
+          <div class="idiomaEgresado_content_text">
+            Demuestra tu nivel avanzado en inglés, comprueba tu capacidad de comunicación efectiva en situaciones
+            cotidianas, laborales y estudiantiles.
+          </div>
+        </div>
+      </div>
+      <div class="idioma">
+        <div class="idioma_logo opc3"></div>
+        <div class="idiomaEgresado_content">
+          <div class="idiomaEgresado_content_title">
+            Certificate in Proficiency English (CPE)
+          </div>
+          <div class="idiomaEgresado_content_text">
+            Confirma que hablas con fluidez y de manera sofisticada, como lo puede hacer un nativo. Este examen acredita
+            que tienes el más alto nivel de inglés.
+          </div>
+        </div>
+      </div>
+      <div class="idioma">
+        <div class="idioma_logo opc4"></div>
+        <div class="idiomaEgresado_content">
+          <div class="idiomaEgresado_content_title">
+            Diplôme d´Études en Langue Francaise (DELF)
+          </div>
+          <div class="idiomaEgresado_content_text">
+            Reconoce tu nivel de “francés intermedio” con este título, el más importante que se puede obtener.
+          </div>
+        </div>
+      </div>
+      <div class="idioma">
+        <div class="idioma_logo opc5"></div>
+        <div class="idiomaEgresado_content">
+          <div class="idiomaEgresado_content_title">
+            Diplôme Approfondie de Langue Francaise (DALF)
+          </div>
+          <div class="idiomaEgresado_content_text">
+            Declara que eres capaz de comunicarte de manera fluida y espontánea en francés, ya
+            que tienes dominio de las estructuras discursivas, un amplio repertorio léxico y puedes
+            elegir la expresión adecuada para hacer observaciones.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pleca_logo"></div>
+  </div>
+
+  <!-- EDUCACION CONTINUA -->
+  <div class="body_content educacion_body">
+    <div class="title educacion_continua"></div>
+    <div class="educacion_text">
+      En un mundo que cambia todos los días, la educación continua es la mejor herramienta para mantenerte vigente.
+      UTECA ofrece cursos, diplomados y seminarios sobre temas fundamentales para que desarrolles las competencias
+      necesarias para tu contexto laboral actual.
+    </div>
+    <div class="proximos_cursos">
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/descuento_educacion_continua.jpg" alt="Descuento Educación Continua">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_cabinas.jpg" alt="Educación Continua Cabinas">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_cortometraje.jpg"
+          alt="Educación Continua Cortometraje">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_diplomadotraduccion.jpg"
+          alt="Educación Continua Diplomado Traducción">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_examensoa.jpg" alt="Educación Continua Examen SOA">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_python.jpg" alt="Educación Continua Python">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_curso_ingles.jpg"
+          alt="Educación Continua Curso Inglés">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_ingles_en_linea.jpg"
+          alt="Educación Continua Inglés en línea">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua._francespsd.jpg" alt="Educación Continua Francés">
+      </a>
+      <a href="https://www.uteca.edu.mx/educacion-continua/" target="_blank">
+        <img src="./portal_alumnos_final/slider/educacion_continua_ansiedad.jpg" alt="Educación Continua Ansiedad">
+      </a>
+    </div>
+    <div class="educacion_text">
+      ¿No encuentras el material que necesitas? ¡Pide un curso, diplomado o seminario a tu medida! Elige entre las
+      siguientes áreas profesionales:
+    </div>
+    <div class="educacion_items">
+      <div class="educacion_wrapper">
+        <div class="educacion_item actuaria"></div>
+        <div class="educacion_item_name">Actuaría</div>
+      </div>
+
+      <div class="educacion_wrapper">
+        <div class="educacion_item admon"></div>
+        <div class="educacion_item_name">Administración</div>
+      </div>
+
+      <div class="educacion_wrapper">
+        <div class="educacion_item diseno"></div>
+        <div class="educacion_item_name">Diseño</div>
+      </div>
+
+      <div class="educacion_wrapper">
+        <div class="educacion_item contaduria"></div>
+        <div class="educacion_item_name">Contaduría</div>
+      </div>
+
+      <div class="educacion_wrapper">
+        <div class="educacion_item informatica"></div>
+        <div class="educacion_item_name">Informática</div>
+      </div>
+
+      <div class="educacion_wrapper">
+        <div class="educacion_item marketing"></div>
+        <div class="educacion_item_name">Marketing</div>
+      </div>
+
+      <div class="educacion_wrapper">
+        <div class="educacion_item habilidades_blandas"></div>
+        <div class="educacion_item_name">Habilidades Blandas<br> (soft skills)</div>
+      </div>
+
+    </div>
+    <div class="educacion_text_bold">
+      ¡Actualízate hoy!
+    </div>
+    <div class="pleca_logo"></div>
+  </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./slick/slick.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
