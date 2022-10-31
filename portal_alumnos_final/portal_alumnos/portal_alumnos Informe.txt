@@ -1,0 +1,93 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: portal_alumnos.ai
+Modo de color: Color RGB
+Perfil de color: ninguno
+Unidades de regla: cent’metros
+Dimensiones de la mesa de trabajo: 50.8 cm x 58.4456 cm
+Mostrar im‡genes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edici—n de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+PANTONE 3255 C (Lab)
+PANTONE Yellow C (Lab)
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Cocogoose Light (TrueType)
+COCOGOOSE DemiBold (TrueType)
+COCOGOOSE  UltraLight (TrueType)
+Gabriel Weiss' Friends Font (TrueType)
+Montserrat Regular (OTF)
+Montserrat Medium (OTF)
+Montserrat SemiBold (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Im‡genes enlazadas:
+
+/Usuarios/Monopolio/Escritorio/portal_alumnos/Links/Untitled-1.png
+Tipo: RGB
+Bits por p’xel: 24
+Canales: 3
+Tama–o: 63K, 300 por 72 p’xeles
+Dimensiones: 819.667 por 196.72 puntos 
+Resoluci—n: 26.352 por 26.352 p’xeles por pulgada
+
+
+/Usuarios/Monopolio/Escritorio/portal_alumnos/Links/MVS Music Center_curvas.ai
+Tipo: PDF
+
+/Usuarios/Monopolio/Escritorio/portal_alumnos/Links/293-2935442_transparent-background-phone-icon-hd-png-download.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 3023K, 860 por 900 p’xeles
+Dimensiones: 19.069 por 19.956 puntos 
+Resoluci—n: 3247.228 por 3247.22 p’xeles por pulgada
+
+
+/Usuarios/Monopolio/Escritorio/portal_alumnos/Links/email_PNG11.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 17636K, 2500 por 1806 p’xeles
+Dimensiones: 17.646 por 12.748 puntos 
+Resoluci—n: 10200.567 por 10200.558 p’xeles por pulgada
+
+
+/Usuarios/Monopolio/Escritorio/portal_alumnos/Links/293-2935442_transparent-background-phone-icon-hd-png-download.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 3023K, 860 por 900 p’xeles
+Dimensiones: 19.069 por 19.956 puntos 
+Resoluci—n: 3247.228 por 3247.22 p’xeles por pulgada
+
+
+/Usuarios/Monopolio/Escritorio/portal_alumnos/Links/email_PNG11.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 17636K, 2500 por 1806 p’xeles
+Dimensiones: 17.646 por 12.748 puntos 
+Resoluci—n: 10200.567 por 10200.558 p’xeles por pulgada
